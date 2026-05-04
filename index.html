@@ -1,65 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Davis Vawiz | Developer</title>
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-body{
-background:#0f172a;
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-text-align:center;
-padding:20px;
-}
-
-.container{
-max-width:700px;
-}
-
-h1{
-font-size:3rem;
-margin-bottom:15px;
-}
-
-p{
-font-size:1.2rem;
-color:#cbd5e1;
-margin-bottom:20px;
-}
-
-a{
-display:inline-block;
-padding:12px 24px;
-background:#3b82f6;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-}
-
-a:hover{
-opacity:.9;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davis Vawiz | Developer Portfolio</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+    body{background:#0b1120;color:#fff;line-height:1.6}
+    header{padding:100px 20px;text-align:center;background:linear-gradient(135deg,#0f172a,#1e3a8a)}
+    h1{font-size:3rem}
+    .subtitle{color:#cbd5e1;margin:15px 0}
+    .btn{display:inline-block;background:#3b82f6;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;margin:10px}
+    section{padding:70px 20px;max-width:1200px;margin:auto}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+    .card{background:#111827;padding:25px;border-radius:16px;transition:.3s;border:1px solid rgba(255,255,255,.08)}
+    .card:hover{transform:translateY(-8px)}
+    .social-card a{color:#60a5fa;text-decoration:none;font-weight:bold}
+    footer{text-align:center;padding:30px;color:#94a3b8}
+  </style>
 </head>
 <body>
-
-<div class="container">
-<h1>Davis Vawiz</h1>
-<p>Web Developer • Founder of TopSMM Buzz</p>
-<a href="https://github.com/davisvawiz">View GitHub</a>
-</div>
-
+<header>
+  <h1>Davis Vawiz</h1>
+  <p class="subtitle">Full-Stack Developer • Founder of TopSMM Buzz</p>
+  <p>Developer of the official WordPress plugin Menu Visibility Control</p>
+  <a class="btn" href="https://davisvawiz.space">Official Website</a>
+  <a class="btn" href="https://wordpress.org/plugins/menu-visibility-control/">View Plugin</a>
+</header><section>
+  <h2>About Me</h2>
+  <p>I build scalable digital products, automation tools, custom PHP systems, WordPress solutions, and growth-focused platforms.</p>
+</section><section>
+  <h2>Featured Portfolio</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Menu Visibility Control</h3>
+      <p>Official WordPress plugin for advanced menu visibility management.</p>
+    </div>
+    <div class="card">
+      <h3>TopSMM Buzz</h3>
+      <p>Social media marketing solutions platform.</p>
+    </div>
+    <div class="card">
+      <h3>Custom PHP Systems</h3>
+      <p>Client portals, automation systems and web tools.</p>
+    </div>
+  </div>
+</section><section>
+  <h2>Social Networks</h2>
+  <div class="grid" id="socials">
+    <div class="card social-card">
+      <h3>GitHub</h3>
+      <a href="https://github.com/davisvawiz">Visit Profile</a>
+    </div>
+  </div>
+</section><section>
+  <h2>Reusable Social Card</h2>
+  <div class="card">
+<pre>&lt;div class="card social-card"&gt;
+  &lt;h3&gt;Platform&lt;/h3&gt;
+  &lt;a href="#"&gt;Visit Profile&lt;/a&gt;
+&lt;/div&gt;</pre>
+  </div>
+</section><footer>
+  © 2026 Davis Vawiz • davisvawiz.space
+</footer>
 </body>
 </html>
