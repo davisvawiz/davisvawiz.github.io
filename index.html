@@ -1,67 +1,80 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Davis Vawiz | Developer Portfolio</title>
-  <style>
-    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-    body{background:#0b1120;color:#fff;line-height:1.6}
-    header{padding:100px 20px;text-align:center;background:linear-gradient(135deg,#0f172a,#1e3a8a)}
-    h1{font-size:3rem}
-    .subtitle{color:#cbd5e1;margin:15px 0}
-    .btn{display:inline-block;background:#3b82f6;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;margin:10px}
-    section{padding:70px 20px;max-width:1200px;margin:auto}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
-    .card{background:#111827;padding:25px;border-radius:16px;transition:.3s;border:1px solid rgba(255,255,255,.08)}
-    .card:hover{transform:translateY(-8px)}
-    .social-card a{color:#60a5fa;text-decoration:none;font-weight:bold}
-    footer{text-align:center;padding:30px;color:#94a3b8}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Davis Vawiz - Full Stack Website Developer from Kenya building all types of websites and digital solutions.">
+<title>Davis Vawiz | Full Stack Website Developer</title>
+<link rel="icon" href="https://davisvawiz.space/Davis.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script type="application/ld+json">{
+"@context":"https://schema.org",
+"@type":"Person",
+"name":"Davis Vawiz",
+"jobTitle":"Full Stack Website Developer",
+"url":"https://davisvawiz.space",
+"email":"info@davisvawiz.space",
+"telephone":"+254757113543",
+"address":{"@type":"PostalAddress","addressCountry":"Kenya"}
+}</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0b1120;color:#fff;line-height:1.6}
+header{padding:80px 20px;background:linear-gradient(135deg,#0f172a,#1e3a8a)}
+.container{max-width:1200px;margin:auto}
+.hero{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:40px}
+.hero img{width:240px;height:240px;border-radius:50%;object-fit:cover;border:5px solid #3b82f6}
+.hero-text{max-width:650px}
+h1{font-size:3rem}
+p{color:#cbd5e1}
+.btn{display:inline-block;margin:10px 10px 0 0;padding:14px 24px;background:#3b82f6;color:#fff;text-decoration:none;border-radius:10px}
+section{padding:70px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:#111827;padding:25px;border-radius:16px;border:1px solid rgba(255,255,255,.08)}
+.card:hover{transform:translateY(-8px);transition:.3s}
+h2{margin-bottom:20px;color:#60a5fa}
+.contact i{margin-right:10px;color:#60a5fa}
+footer{text-align:center;padding:30px;color:#94a3b8}
+@media(max-width:768px){h1{font-size:2rem}.hero{text-align:center}}
+</style>
 </head>
 <body>
 <header>
-  <h1>Davis Vawiz</h1>
-  <p class="subtitle">Full-Stack Developer • Founder of TopSMM Buzz</p>
-  <p>Developer of the official WordPress plugin Menu Visibility Control</p>
-  <a class="btn" href="https://davisvawiz.space">Official Website</a>
-  <a class="btn" href="https://wordpress.org/plugins/menu-visibility-control/">View Plugin</a>
-</header><section>
-  <h2>About Me</h2>
-  <p>I build scalable digital products, automation tools, custom PHP systems, WordPress solutions, and growth-focused platforms.</p>
-</section><section>
-  <h2>Featured Portfolio</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Menu Visibility Control</h3>
-      <p>Official WordPress plugin for advanced menu visibility management.</p>
-    </div>
-    <div class="card">
-      <h3>TopSMM Buzz</h3>
-      <p>Social media marketing solutions platform.</p>
-    </div>
-    <div class="card">
-      <h3>Custom PHP Systems</h3>
-      <p>Client portals, automation systems and web tools.</p>
-    </div>
-  </div>
-</section><section>
-  <h2>Social Networks</h2>
-  <div class="grid" id="socials">
-    <div class="card social-card">
-      <h3>GitHub</h3>
-      <a href="https://github.com/davisvawiz">Visit Profile</a>
-    </div>
-  </div>
-</section><section>
-  <h2>Reusable Social Card</h2>
-  <div class="card">
-<pre>&lt;div class="card social-card"&gt;
-  &lt;h3&gt;Platform&lt;/h3&gt;
-  &lt;a href="#"&gt;Visit Profile&lt;/a&gt;
-&lt;/div&gt;</pre>
-  </div>
-</section><footer>
-  © 2026 Davis Vawiz • davisvawiz.space
-</footer>
+<div class="container hero">
+<img src="https://davisvawiz.space/Davis.png" alt="Davis Vawiz">
+<div class="hero-text">
+<h1>Davis Vawiz</h1>
+<p>Full Stack Website Developer from Kenya 🇰🇪 building all types of websites, custom platforms, business portals, WordPress solutions, automation systems, and scalable digital products.</p>
+<a class="btn" href="https://davisvawiz.space"><i class="fas fa-globe"></i> Official Website</a>
+<a class="btn" href="https://wordpress.org/plugins/menu-visibility-control/"><i class="fab fa-wordpress"></i> WordPress Plugin</a>
+</div>
+</div>
+</header>
+<section class="container">
+<h2>About Me</h2>
+<p>I specialize in building modern responsive websites, full-stack web applications, client dashboards, custom PHP systems, APIs, landing pages, eCommerce platforms, business automation tools and growth-focused digital solutions for brands worldwide.</p>
+</section>
+<section class="container">
+<h2>Services</h2>
+<div class="grid">
+<div class="card"><h3>Custom Website Development</h3><p>Professional websites for businesses, startups and brands.</p></div>
+<div class="card"><h3>WordPress Development</h3><p>Plugins, themes, optimization and advanced customization.</p></div>
+<div class="card"><h3>Web Applications</h3><p>Dashboards, portals, SaaS systems and automation tools.</p></div>
+<div class="card"><h3>eCommerce Solutions</h3><p>Scalable online stores and payment integrations.</p></div>
+</div>
+</section>
+<section class="container">
+<h2>Portfolio</h2>
+<div class="grid">
+<div class="card"><h3>Menu Visibility Control</h3><p>Official WordPress plugin for advanced menu visibility management.</p></div>
+<div class="card"><h3>TopSMM Buzz</h3><p>Social media marketing platform and automation solutions.</p></div>
+<div class="card"><h3>Custom Systems</h3><p>Tailored web-based business systems and portals.</p></div>
+</div>
+</section>
+<section class="container contact">
+<h2>Contact</h2>
+<p><i class="fas fa-envelope"></i> info@davisvawiz.space</p>
+<p><i class="fab fa-whatsapp"></i> +254757113543</p>
+<p><i class="fas fa-location-dot"></i> Kenya 🇰🇪</p>
+</section>
+<footer>© 2026 Davis Vawiz | Full Stack Website Developer</footer>
 </body>
 </html>
